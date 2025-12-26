@@ -18,9 +18,22 @@ RESERVE_FLAG                = 1;        % take spinning reserve in calculation (
 START_UP_COST_METHOD        = 1;        % 1-cold start-up (const), 2-cold/hot start-up, 3-exponential start-up
 %-----------------------------------------------------------------------
 % 10-Unit System from Abdelaziz et al. with derived linear cost coefficients
-% Linear coefficients derived from quadratic coefficients for dispatch compatibility
+% 
+% IMPORTANT NOTE: Linear coefficients (Inc_heat_rate, No_load_cost, Fuel_cost) were derived
+% from the original quadratic coefficients using the following methodology:
+% 
+% Derivation approach:
+%   1. No_load_cost = coef_a (constant term in quadratic cost function)
+%   2. Fuel_cost = 2.0 £/MBTU (standard value used in industry)
+%   3. Linear cost at midpoint: b_mid = coef_b + 2 * coef_c * P_mid
+%   4. Inc_heat_rate = b_mid * 1000 / Fuel_cost  (BTU/kWh)
+% 
+% This derivation enables compatibility with all three dispatch methods (QUADPROG, LINPROG,
+% Quick Dispatch) while preserving the economic characteristics of the original system.
+%
 % Unit_no.  Pmin   Pmax  Inc.heat_rate  No_load_cost  Start_cost_cold  Fuel_cost  Min_up_time  Min_down_time In.status   Start_cost_hot     Cold_start_[h]    Ramp-up      Ramp-down      coef_a      coef_b        coef_c       shut_down_cost      TAU
-%           [MW]   [MW]    [BTU/kWh]        [£/h]        [£]           [£/MBTU]      [h]           [h]          [h]         [£]                [h]            [MW/h]         [MW/h]        [£]        [£/MWh]      [£/MWh^2]          [£]            [h]
+%           [MW]   [MW]   [BTU/kWh]*     [£/h]*        [£]            [£/MBTU]*     [h]           [h]          [h]         [£]                [h]            [MW/h]         [MW/h]        [£]        [£/MWh]      [£/MWh^2]          [£]            [h]
+%                  (* = derived value)
 gen_data = [...                                                                                                                                                                                                                                       
      1      30.0  100.0      4584.95        820.00           2050         2.00	        5           4          -10           NaN                NaN             NaN           NaN           820         9.023       0.00113             0            NaN 
      2     130.0  400.0      4251.00        400.00           1460         2.00	        3           2           10           NaN                NaN             NaN           NaN           400         7.654       0.00160             0            NaN 

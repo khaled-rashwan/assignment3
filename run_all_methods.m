@@ -1,4 +1,8 @@
 % Script to run all three dispatch methods and collect results
+%
+% NOTE: This script uses shell 'sed' commands for simplicity in changing configuration.
+% For production use, consider implementing a MATLAB-native configuration function
+% to avoid platform dependencies and improve robustness.
 
 fprintf('\n======================================================================\n');
 fprintf('TASK 1: Testing 4-Unit System with 8-Hour Demand\n');
