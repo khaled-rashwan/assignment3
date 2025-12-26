@@ -1,0 +1,122 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/median.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/var.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mad.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/std.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mean.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+
+======================================================================
+TASK 2B: Testing 10-Unit System (Priority List) with 24-Hour Demand
+======================================================================
+
+
+--- Method 1: QUADPROG (10-unit, 24 hours) ---
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_10unit_priority at line 15 column 5
+
+
+WARN:	DATA AVAILABILITY CHECK FAILURE!
+	To use priority list, you must provide data for NO LOAD COSTS,FUEL COSTS and INCREMENTAL COSTS.
+
+Elapsed time is 0.00230789 seconds.
+
+
+--- Method 2: LINPROG (10-unit, 24 hours) ---
+
+WARN:	DATA AVAILABILITY CHECK FAILURE!
+	To use priority list, you must provide data for NO LOAD COSTS,FUEL COSTS and INCREMENTAL COSTS.
+
+Elapsed time is 0.000433922 seconds.
+
+
+--- Method 3: Quick Dispatch (10-unit, 24 hours) ---
+
+WARN:	DATA AVAILABILITY CHECK FAILURE!
+	To use priority list, you must provide data for NO LOAD COSTS,FUEL COSTS and INCREMENTAL COSTS.
+
+Elapsed time is 0.000435114 seconds.
+
+
+======================================================================
+TASK 2B COMPLETED
+======================================================================

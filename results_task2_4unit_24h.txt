@@ -1,0 +1,340 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/median.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/var.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mad.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/std.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mean.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+
+======================================================================
+TASK 2A: Testing 4-Unit System with 24-Hour Demand
+======================================================================
+
+
+--- Method 1: QUADPROG (24 hours) ---
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_task2_4unit at line 11 column 5
+
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+Currently processing hour:  9 
+Currently processing hour: 10 
+Currently processing hour: 11 
+Currently processing hour: 12 
+Currently processing hour: 13 
+Currently processing hour: 14 
+Currently processing hour: 15 
+Currently processing hour: 16 
+Currently processing hour: 17 
+Currently processing hour: 18 
+Currently processing hour: 19 
+Currently processing hour: 20 
+Currently processing hour: 21 
+Currently processing hour: 22 
+Currently processing hour: 23 
+Currently processing hour: 24 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+  9           550           550          135          550            0         11278        86967         13         0 1 1 0
+ 10           620           620          160          630          350         12963       100280         15         1 1 1 0
+ 11           650           650          180          690            0         13904       114183         16         1 1 1 1
+ 12           600           600          160          630            0         12540       126724         15         1 1 1 0
+ 13           520           520          160          630            0         10980       137704         15         1 1 1 0
+ 14           450           450          135          550            0          9406       147110         13         0 1 1 0
+ 15           380           380          135          550            0          8114       155223         13         0 1 1 0
+ 16           320           320           95          360            0          6809       162032          9         0 0 1 1
+ 17           300           300           75          300            0          6080       168112          6         0 0 1 0
+ 18           280           280           75          300            0          5710       173823          6         0 0 1 0
+ 19           350           350           95          360            0          7528       181350          9         0 0 1 1
+ 20           420           420          135          550          400          8851       190601         13         0 1 1 0
+ 21           480           480          135          550            0          9964       200565         13         0 1 1 0
+ 22           530           530          135          550            0         10901       211466         13         0 1 1 0
+ 23           570           570          155          610            0         12007       223473         14         0 1 1 1
+ 24           500           500          135          550            0         10337       233810         13         0 1 1 0
+
+ Elapsed time:          0.8343 sec.
+
+
+
+--- Method 2: LINPROG (24 hours) ---
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+Currently processing hour:  9 
+Currently processing hour: 10 
+Currently processing hour: 11 
+Currently processing hour: 12 
+Currently processing hour: 13 
+Currently processing hour: 14 
+Currently processing hour: 15 
+Currently processing hour: 16 
+Currently processing hour: 17 
+Currently processing hour: 18 
+Currently processing hour: 19 
+Currently processing hour: 20 
+Currently processing hour: 21 
+Currently processing hour: 22 
+Currently processing hour: 23 
+Currently processing hour: 24 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+  9           550           550          135          550            0         11278        86967         13         0 1 1 0
+ 10           620           620          160          630          350         12963       100280         15         1 1 1 0
+ 11           650           650          180          690            0         13904       114183         16         1 1 1 1
+ 12           600           600          160          630            0         12540       126724         15         1 1 1 0
+ 13           520           520          160          630            0         10980       137704         15         1 1 1 0
+ 14           450           450          135          550            0          9406       147110         13         0 1 1 0
+ 15           380           380          135          550            0          8114       155223         13         0 1 1 0
+ 16           320           320           95          360            0          6809       162032          9         0 0 1 1
+ 17           300           300           75          300            0          6080       168112          6         0 0 1 0
+ 18           280           280           75          300            0          5710       173823          6         0 0 1 0
+ 19           350           350           95          360            0          7528       181350          9         0 0 1 1
+ 20           420           420          135          550          400          8851       190601         13         0 1 1 0
+ 21           480           480          135          550            0          9964       200565         13         0 1 1 0
+ 22           530           530          135          550            0         10901       211466         13         0 1 1 0
+ 23           570           570          155          610            0         12007       223473         14         0 1 1 1
+ 24           500           500          135          550            0         10337       233810         13         0 1 1 0
+
+ Elapsed time:          0.7121 sec.
+
+
+
+--- Method 3: Quick Dispatch (24 hours) ---
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+Currently processing hour:  9 
+Currently processing hour: 10 
+Currently processing hour: 11 
+Currently processing hour: 12 
+Currently processing hour: 13 
+Currently processing hour: 14 
+Currently processing hour: 15 
+Currently processing hour: 16 
+Currently processing hour: 17 
+Currently processing hour: 18 
+Currently processing hour: 19 
+Currently processing hour: 20 
+Currently processing hour: 21 
+Currently processing hour: 22 
+Currently processing hour: 23 
+Currently processing hour: 24 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+  9           550           550          135          550            0         11278        86967         13         0 1 1 0
+ 10           620           620          160          630          350         12963       100280         15         1 1 1 0
+ 11           650           650          180          690            0         13904       114183         16         1 1 1 1
+ 12           600           600          160          630            0         12540       126724         15         1 1 1 0
+ 13           520           520          160          630            0         10980       137704         15         1 1 1 0
+ 14           450           450          135          550            0          9406       147110         13         0 1 1 0
+ 15           380           380          135          550            0          8114       155223         13         0 1 1 0
+ 16           320           320           95          360            0          6809       162032          9         0 0 1 1
+ 17           300           300           75          300            0          6080       168112          6         0 0 1 0
+ 18           280           280           75          300            0          5710       173823          6         0 0 1 0
+ 19           350           350           95          360            0          7528       181350          9         0 0 1 1
+ 20           420           420          135          550          400          8851       190601         13         0 1 1 0
+ 21           480           480          135          550            0          9964       200565         13         0 1 1 0
+ 22           530           530          135          550            0         10901       211466         13         0 1 1 0
+ 23           570           570          155          610            0         12007       223473         14         0 1 1 1
+ 24           500           500          135          550            0         10337       233810         13         0 1 1 0
+
+ Elapsed time:          0.7075 sec.
+
+
+
+======================================================================
+TASK 2A COMPLETED
+======================================================================
+warning: Octave language extension used: bare newline inside parentheses near line 93 offile /usr/share/octave/8.4.0/m/plot/util/close.m
+warning: Octave language extension used: bare newline inside parentheses near line 93 offile /usr/share/octave/8.4.0/m/plot/util/close.m

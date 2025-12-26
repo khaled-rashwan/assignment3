@@ -13,7 +13,7 @@ RAMP_UP_DOWN_FLAG           = 0;        % take ramp    up and down rates into ac
 N_PRED                      = 1;        % number of predecesors to be searched (N_PRED >= 1)
 COMPLETE_ENUMERATION_FLAG   = 0;        % 1 - complete enumeration, 0 - priority list
 DETAIL_PRINT_FLAG           = 0;        % detailed results printing: 0 - no, 1 - yes
-DISPATCH_METHOD             = 3;        % 1 - quadprog, 2 - linprog, 3 - quick dispatch
+DISPATCH_METHOD             = 1;        % 1 - quadprog, 2 - linprog, 3 - quick dispatch
 RESERVE_FLAG                = 1;        % take spinning reserve in calculation (1) or not (0)
 START_UP_COST_METHOD        = 1;        % 1-cold start-up (const), 2-cold/hot start-up, 3-exponential start-up
 %-----------------------------------------------------------------------
