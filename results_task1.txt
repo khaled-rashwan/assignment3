@@ -1,0 +1,247 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/median.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/var.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mad.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/std.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+warning: function /usr/share/octave/packages/statistics-1.6.3/shadow9/mean.m shadows a core library function
+warning: called from
+    /usr/share/octave/packages/statistics-1.6.3/PKG_ADD at line 15 column 3
+    load_packages_and_dependencies at line 56 column 5
+    load_packages at line 53 column 3
+    pkg at line 639 column 7
+
+
+======================================================================
+TASK 1: Testing 4-Unit System with 8-Hour Demand
+======================================================================
+
+
+--- Method 1: QUADPROG ---
+Modifying DISPATCH_METHOD to 1...
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+warning: Invalid UTF-8 byte sequences have been replaced.
+warning: called from
+    run_all_methods at line 12 column 5
+
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+
+ Elapsed time:          0.4283 sec.
+
+
+
+--- Method 2: LINPROG ---
+Modifying DISPATCH_METHOD to 2...
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+
+ Elapsed time:          0.2259 sec.
+
+
+
+--- Method 3: Quick Dispatch ---
+Modifying DISPATCH_METHOD to 3...
+   State No.      MW min        MW max                     Units
+                                              1         2         3         4 
+ -------------------------------------------------------------------------------- 
+       1            0.0           0.0         0         0         0         0 
+       2           20.0          60.0         0         0         0         1 
+       3           25.0          80.0         1         0         0         0 
+       4           45.0         140.0         1         0         0         1 
+       5           60.0         250.0         0         1         0         0 
+       6           75.0         300.0         0         0         1         0 
+       7           80.0         310.0         0         1         0         1 
+       8           85.0         330.0         1         1         0         0 
+       9           95.0         360.0         0         0         1         1 
+      10          100.0         380.0         1         0         1         0 
+      11          105.0         390.0         1         1         0         1 
+      12          120.0         440.0         1         0         1         1 
+      13          135.0         550.0         0         1         1         0 
+      14          155.0         610.0         0         1         1         1 
+      15          160.0         630.0         1         1         1         0 
+      16          180.0         690.0         1         1         1         1 
+Currently processing hour:  1 
+Currently processing hour:  2 
+Currently processing hour:  3 
+Currently processing hour:  4 
+Currently processing hour:  5 
+Currently processing hour:  6 
+Currently processing hour:  7 
+Currently processing hour:  8 
+
+======================================================================================================================================================
+       HOURLY RESULTS:
+====================================================================================================================================================== 
+Hour         Demand       Tot.Gen      Min MW       Max MW       ST-UP Cost   Prod.Cost    F-Cost       State        Units ON/OFF  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  0             -             -          135          550            0             0            0         13         0 1 1 0
+  1           450           450          135          550            0          9406         9406         13         0 1 1 0
+  2           530           530          135          550            0         10901        20307         13         0 1 1 0
+  3           600           600          155          610            0         12726        33033         14         0 1 1 1
+  4           540           540          135          550            0         11089        44122         13         0 1 1 0
+  5           400           400          135          550            0          8482        52604         13         0 1 1 0
+  6           280           280          135          550            0          6283        58886         13         0 1 1 0
+  7           290           290          135          550            0          6465        65351         13         0 1 1 0
+  8           500           500          135          550            0         10337        75689         13         0 1 1 0
+
+ Elapsed time:          0.2251 sec.
+
+
+
+======================================================================
+ALL TESTS COMPLETED
+======================================================================
+warning: Octave language extension used: bare newline inside parentheses near line 93 offile /usr/share/octave/8.4.0/m/plot/util/close.m
+warning: Octave language extension used: bare newline inside parentheses near line 93 offile /usr/share/octave/8.4.0/m/plot/util/close.m
